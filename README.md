@@ -28,7 +28,7 @@
 [![Jest](https://img.shields.io/badge/Jest-%23C91522?style=for-the-badge&logo=Jest&logoColor=white)](https://jestjs.io/)
 
 ## 🙋 Let's Connect:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joao-equer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joão-victor-equer-5033b8209)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoaoEquer)
 
 ## 📱 Dreambook in Action:
