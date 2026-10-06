@@ -1,53 +1,43 @@
-## Welcome! 👋
+# João Victor Equer
 
-##### I'm João Equer, a Full-Stack Developer at Dreambook - a startup creating an app for dream recording and lucid dream induction. We collaborate with renowned neuroscientists to bridge dream science with technology, aiming to advance both research and user experiences!
+**Full-stack developer, mobile focus** · Rio de Janeiro, Brasil
 
-##### My tech journey began with a passion for problem-solving and software creation. This drive led me to pursue IT, where I thrive in full-cycle development, combining technical solutions with user-centric design across the stack.
+I build mobile apps and the APIs behind them at Dreambook, a dream journal and lucid dreaming app made with neuroscientists. I also build tooling to make AI-assisted development consistent and reviewable.
 
-##### I specialize in building complete applications from concept to deployment, with strong expertise in mobile development and creating intuitive experiences that merge technology with psychological insights.
+Desenvolvedor full-stack com foco em mobile. Trabalho na Dreambook (app de diário de sonhos) e mantenho projetos open source de tooling para desenvolvimento com IA.
 
-## 💻 Technologies:
+## What I work on
 
-#### Backend:
-[![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![Firebase](https://img.shields.io/badge/Firebase-red?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/)
-[![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://www.prisma.io/)
-[![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://swagger.io/)
+- **Dreambook**: React Native app on the App Store and Google Play, Node/Express + Prisma backend, admin panel in React.
+- **[Oficina](https://github.com/JoaoEquer/Oficina)**: open source harness of skills, rules and slash commands for AI coding agents (Claude Code, Gemini CLI, Cursor, Codex). Patterns are extracted from production projects and only included after they show up at least twice.
 
-#### Frontend:
-[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+## Stack
 
-#### Mobile:
-[![React Native](https://img.shields.io/badge/React_Native-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
 
-#### Databases:
-[![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)](https://www.microsoft.com/sql-server)
+## How I work
 
-#### Cloud & DevOps:
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Sentry](https://img.shields.io/badge/Sentry-FF4F40?style=for-the-badge&logo=sentry&logoColor=white)](https://sentry.io/)
+- Backends in controller, usecase, repository layers, wired by hand. No framework magic where a factory works.
+- Strict TypeScript, no `any`.
+- Small PRs, one theme per branch, Conventional Commits.
+- Reversible decisions and proven tech over trends.
 
-#### Testing:
-[![Jest](https://img.shields.io/badge/Jest-%23C91522?style=for-the-badge&logo=Jest&logoColor=white)](https://jestjs.io/)
+## Dreambook
 
-#### Version Control:
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-
-#### IDEs:
-[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
-[![WebStorm](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white)](https://www.jetbrains.com/webstorm/)
-[![Android Studio](https://img.shields.io/badge/Android%20Studio-000000.svg?style=for-the-badge&logo=android-studio&logoColor=3DDC84)](https://developer.android.com/studio)
-
-## 🙋 Connect with me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joão-victor-equer-5033b8209)
-
-## 📱 Dreambook Available On:
 <a href="https://apps.apple.com/br/app/dreambook-di%C3%A1rio-de-sonhos/id6478346247"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="40"></a>
 <a href="https://play.google.com/store/apps/details?id=br.com.wibi.dreambook"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="40"></a>
+
+## Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joão-victor-equer-5033b8209)
