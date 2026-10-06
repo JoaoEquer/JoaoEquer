@@ -1,10 +1,10 @@
 # João Victor Equer
 
-**Software Engineer** · mobile, backend and AI tooling · Rio de Janeiro, Brasil
+**Software Engineer** · Mobile, Backend and AI Tooling · Rio de Janeiro, Brasil
 
 I work at [Wibi](https://wibi.dev), a software house affiliated with UFRJ's Technology Park. There I build Dreambook (a sleep and dream journal app made with neuroscientists), internal tools and client platforms, from architecture to deploy. On my own time I build tooling for AI-assisted development.
 
-Engenheiro de software na Wibi: mobile, backend e ferramentas de IA para desenvolvimento.
+> PT-BR: engenheiro de software na Wibi. Construo apps mobile, APIs e ferramentas de IA para desenvolvimento.
 
 ## What I build
 
@@ -29,6 +29,8 @@ Engenheiro de software na Wibi: mobile, backend e ferramentas de IA para desenvo
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
