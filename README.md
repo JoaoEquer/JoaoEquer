@@ -1,48 +1,45 @@
 # João Victor Equer
 
-**Software Engineer** · Mobile, Backend and AI Tooling · Rio de Janeiro, Brasil
+Software engineer at [Wibi](https://wibi.dev), Rio de Janeiro. Mobile, backend and tooling for AI-assisted development.
 
-I work at [Wibi](https://wibi.dev), a software house affiliated with UFRJ's Technology Park. There I build Dreambook (a sleep and dream journal app made with neuroscientists), internal tools and client platforms, from architecture to deploy. On my own time I build tooling for AI-assisted development.
+I build and ship products end to end: architecture, API, mobile app, deploy, monitoring. Most of my work is on Dreambook, a sleep and dream journal app made with neuroscientists, available on the [App Store](https://apps.apple.com/br/app/dreambook-di%C3%A1rio-de-sonhos/id6478346247) and [Google Play](https://play.google.com/store/apps/details?id=br.com.wibi.dreambook). It started charging for subscriptions in late 2025, which changed what "good enough" means for a codebase.
 
-> PT-BR: engenheiro de software na Wibi. Construo apps mobile, APIs e ferramentas de IA para desenvolvimento.
+*PT-BR: engenheiro de software na Wibi. Apps mobile, APIs e ferramentas de IA para desenvolvimento.*
 
-## What I build
+## Work
 
-**Products at Wibi**
-- **Dreambook**: React Native app on the [App Store](https://apps.apple.com/br/app/dreambook-di%C3%A1rio-de-sonhos/id6478346247) and [Google Play](https://play.google.com/store/apps/details?id=br.com.wibi.dreambook), with a Node/Prisma backend. I work on the mobile features (audio players, dynamic forms, navigation) and backend. It was selected for Dealist University (ArcelorMittal) and Sebrae Start Deeptech, and its AI gamification features are part of the INOVA+ Saúde program (EMBRAPII/SEBRAE).
-- **Internal and client platforms**: admin panel and a task-management platform for a client, built end to end with Express, Prisma, PostgreSQL, role-based permissions and a documented REST API.
-- **wibi.dev**: institutional site in React, Vite and Tailwind, with attention to SEO, accessibility and Core Web Vitals.
+**Dreambook** (React Native, Node, Prisma). Mobile features (audio players, dynamic forms, navigation) and backend. Selected for Dealist University (ArcelorMittal) and Sebrae Start Deeptech. The AI gamification features were part of the INOVA+ Saúde program (EMBRAPII/SEBRAE).
 
-**Open source and personal projects**
-- **[Oficina](https://github.com/JoaoEquer/Oficina)**: a portable harness of skills, rules and slash commands for AI coding agents (Claude Code, Gemini CLI, Cursor, Codex). Patterns come from production projects and are only added after they appear at least twice. It includes a supply-chain audit command that has found known vulnerabilities in real production dependencies.
-- **Personal autonomous agent** (in development, private): LangGraph.js, a custom MCP client and human approval before any write. It automates my weekly reporting.
-- **[nlwia](https://github.com/JoaoEquer/nlwia)**: web app that transcribes YouTube Shorts and summarizes them (Rocketseat NLW IA).
+**Internal and client platforms** (Express, Prisma, PostgreSQL, Vite). An admin panel and a task-management platform for a client, owned end to end: data model, role-based permissions, documented REST API, deploy.
 
-## Stack
+**[Oficina](https://github.com/JoaoEquer/Oficina)** (open source). A portable set of skills, rules and slash commands that makes AI coding agents (Claude Code, Gemini CLI, Cursor, Codex) behave the same way across projects. A pattern only goes in after it shows up in two real projects. Its supply-chain audit command found known vulnerabilities in real production dependencies, which is the reason I trust it.
 
-**Mobile** ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+**Weekly reporting agent** (private, in development). LangGraph.js, a custom MCP client, human approval before any write.
 
-**Backend** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+## What I use, and for what
 
-**Quality and ops** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-
-**AI tooling** ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) MCP
+| Tool | Where it earns its place |
+|---|---|
+| TypeScript, strict, no `any` | Everywhere. The compiler is the cheapest reviewer. |
+| React Native | Dreambook: audio, forms, navigation. |
+| Node, Express, Prisma, PostgreSQL | APIs in controller, usecase, repository layers, wired by hand. |
+| Docker, GitHub Actions | Reproducible builds and CI. |
+| Sentry | Exception tracking across the company's apps. |
+| Jest | Business rules, not getters. |
+| Claude Code, MCP | Daily, under the rules in Oficina. |
 
 Also used: React, Vite, Tailwind, NestJS, MySQL, Firebase, Google Cloud, Swagger.
 
 ## How I work
 
-- Backends in controller, usecase, repository layers, wired by hand.
-- Strict TypeScript, no `any`.
-- Small PRs, one theme per branch, Conventional Commits.
-- Reversible decisions and proven tech over trends.
-- Security is part of the job: dependency audits, secret scanning, permission models.
+- Boring technology first. New tools have to beat the one already in the repo.
+- Prefer reversible decisions. Small PRs, one theme per branch, Conventional Commits.
+- Verify before asserting. Read the real contract (schema, response, lockfile) instead of assuming it.
+- Dependencies are attack surface. Audit them, scan for secrets, model permissions explicitly.
+- Name the real limit of a system (scale, data integrity, security, cost) before calling it ready.
 
-## Education
+## Background
 
-- Systems Analysis and Development, Descomplica (2022 to 2024), with an academic excellence award in Mobile Development and AI Algorithms.
-- MBA in Information Security, Descomplica (on hold). Cybersecurity Essentials and Networking Essentials micro-certificates.
+Systems Analysis and Development, Descomplica (2022 to 2024), with an academic excellence award in Mobile Development and AI Algorithms. MBA in Information Security, Descomplica (on hold). Before software: army, smartphone repair, administrative work.
 
-## Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joão-victor-equer-5033b8209)
+[LinkedIn](https://www.linkedin.com/in/joão-victor-equer-5033b8209)
